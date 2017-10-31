@@ -62,7 +62,7 @@ public class Accueil extends AppCompatActivity {
 //            queryBuilder.orderBy(Film.FILMS_TITRE,true);
 //            //on dit que l'on a fini
 //            PreparedQuery<Film> preparedQuery = queryBuilder.prepare();
-//            for ( Film film : filmDao.query(preparedQuery) ) {
+//            final List<Film> films = filmDao.query(preparedQuery);
 
             for ( Film film : films ) {
                 HashMap<String,String> map = new HashMap<String,String>();
