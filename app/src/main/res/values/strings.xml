@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TutorielOrmLite</string>
+     <!-- t = titre, b = boutton, p = textView -->
+    <!-- pour l'activité accueil -->
+    <string name="t_accueil">Accueil</string>
+    <string name="b_generer_bdd">Créer BDD</string>
+    <string name="b_categories">Catégories</string>
+
+    <!-- pour l'activité liste catégories -->
+    <string name="b_accueil">Accueil</string>
+    <string name="b_ajout_cat">Ajouter Categorie</string>
+    <string name="t_liste_cat">Liste des catégories</string>
+
+    <!-- pour l'activité catégorie -->
+    <string name="t_categorie">Catégorie</string>
+    <string name="b_ajout_film">Ajouter Film</string>
+
+    <!-- pour l'activité film -->
+    <string name="t_film">Film</string>
+    <string name="b_modif">Modifier</string>
+
+    <!-- pour les activité film et recherche -->
+    <string name="p_titre">Titre : </string>
+    <string name="p_auteur">Auteur: </string>
+    <string name="p_desc">Description : </string>
+    <string name="p_anne">Année : </string>
+
+    <!-- pour l'activité recherche -->
+    <string name="t_recherche">Recherche</string>
+    <string name="p_sous_titre">Par :</string>
+    <string name="b_recherche">Rechercher</string>
+
+</resources>
